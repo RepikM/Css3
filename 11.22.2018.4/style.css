@@ -1,0 +1,159 @@
+.box{
+	width: 100%;
+	height:120px;
+	display:inline-block;
+	line-height: 100px;
+	text-align: center;
+	border-radius: 50%;
+		background-color: LightGoldenRodYellow;
+}
+
+.box1{
+
+	position: relative;
+	left: 50px;
+
+}
+
+.box2{
+	position: relative;
+	top:50px;
+
+	
+}
+
+.box3{
+	position: relative;
+	right:50px;
+
+	
+}
+.box4{
+	position: relative;
+	width: 70px;
+	height:70px;
+	background-color: brown;
+
+   right:248px;
+   bottom: 15px;
+
+}
+.box5{
+position: relative;
+width: 70px;
+	height:70px;
+	background-color: brown;
+	right:215px;
+   bottom: 15px;
+}
+.box6{
+position: relative;
+width: 10px;
+	height:10px;
+	background-color: black;
+	right:320px;
+}
+.box7{
+position: relative;
+width: 10px;
+	height:10px;
+	background-color: black;
+	right:320px;
+}
+.box8{
+position: relative;
+width: 15px;
+	height:15px;
+	background-color: black;
+	top:25px;
+	right:345px;
+}
+
+.box9{
+position: relative;
+width: 5px;
+	height:5px;
+	background-color: black;
+	top:35px;
+	right:364px;
+}
+.box10{
+position: relative;
+width: 5px;
+	height:5px;
+	background-color: black;
+	top:36px;
+	right:372px;
+}
+.box11{
+position: relative;
+width: 5px;
+	height:5px;
+	background-color: black;
+	top:37px;
+	right:380px;
+}
+.box12{
+position: relative;
+width: 5px;
+	height:5px;
+	background-color: black;
+	top:38px;
+	right:388px;
+}
+.box13{
+position: relative;
+width: 5px;
+	height:5px;
+	background-color: black;
+	top:39px;
+	right:396px;
+}
+.box14{
+position: relative;
+width: 5px;
+	height:5px;
+	background-color: black;
+	top:40px;
+	right:404px;
+}
+.box15{
+position: relative;
+width: 5px;
+	height:5px;
+	background-color: black;
+	top:39px;
+	right:412px;
+}
+.box16{
+position: relative;
+width: 5px;
+	height:5px;
+	background-color: black;
+	top:38px;
+	right:420px;
+}
+.box17{
+position: relative;
+width: 5px;
+	height:5px;
+	background-color: black;
+	top:37px;
+	right:428px;
+}
+.box18{
+position: relative;
+width: 5px;
+	height:5px;
+	background-color: black;
+	top:36px;
+	right:436px;
+}
+.box19{
+position: relative;
+width: 5px;
+	height:5px;
+	background-color: black;
+	top:35px;
+	right:444px;
+}

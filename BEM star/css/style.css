@@ -1,0 +1,47 @@
+.conatinerRow{
+display: flex;
+	justify-content: space-around;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+}
+
+.card{
+	
+background: lightGoldenRodYellow;
+border-left:10px solid lightGoldenRodYellow;
+border-right:10px solid lightGoldenRodYellow;
+border-top:10px solid lightGoldenRodYellow;
+border-radius: 30px;
+}
+
+.card--dark{
+background:grey;
+border-left: 10px solid grey;
+border-right: 10px solid grey;
+border-top: 10px solid grey;
+border-radius: 30px;
+}
+
+.card__image{
+border-radius: 100px;
+
+}
+
+.card__title{
+text-align: center;
+
+}
+
+.card__body{
+text-align: center;
+
+}
+
+
+
+.card__title--light, .card__body--light{
+color: white;
+
+}
+
+

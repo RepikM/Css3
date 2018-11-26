@@ -1,0 +1,54 @@
+@import "border-box.css";
+
+.box{
+	width:20px;
+	height:20px;
+	border:1px solid black;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.box:nth-child(odd){
+	background-color: lightgrey;
+}
+p:before , p:after {
+	color: DeepSkyBlue ;
+content: " lel ";
+}
+
+
+
+#lel{
+
+background-color: PapayaWhip;
+margin:0px;
+border:1px solid MediumAquamarine;
+padding:10px;
+}
+
+
+
+
+#kek{
+background-color: LightGoldenRodYellow; 
+margin:0px;
+padding:10px;
+
+}
+
+input{
+	border: 5px solid Thistle;
+	margin: 1px;
+	padding: 10px;
+
+}
+
+
+#mem{
+background-color: FireBrick;
+display: inline-block;
+width: 222px;
+height: 20px;
+border:100px solid NavajoWhite;
+}

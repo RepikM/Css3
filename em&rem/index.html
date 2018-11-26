@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		html{
+			/* root of document font size */
+			font-size: 12px;
+		}
+		.fontSizeEm{
+			/* em will inherit from the parent element */
+			font-size: 1.5em;
+		}
+
+		.parentRem{
+			/* rem will inherit from root element */
+			font-size: 2rem;
+		}
+
+		.childRem{
+			/* rem will inherit from root element */
+			font-size: 1rem;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="fontSizeEm">
+		em grandma
+		<div class="fontSizeEm">
+			em granma's child
+			<div class="fontSizeEm">em granma's child's child</div>
+		</div>
+	</div>
+	<hr>
+	<div class="parentRem">
+		parent
+		<div class="childRem">child</div>
+	</div>
+</body>
+</html>

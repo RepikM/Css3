@@ -1,0 +1,48 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+img{
+	width: 100%;
+
+}
+
+.welcome{
+	position: relative;
+
+	}
+
+.welcome__message{
+	width: 100%;
+	position: absolute;	
+	top: 50%;
+	text-align: center;
+	transform: translateY(-50%);
+}
+
+.welcome__title{
+	color: #FAFAFA;
+	font-size: 4em;
+	margin: 0px;
+}
+.welcome__description{
+	color: #FEDDCC;
+	font-size:1.5em;
+	margin: 10px
+}
+.btn{
+	text-decoration: none;
+	padding: 5px 15px;
+	font-size: 25px;
+	background-color: MediumAquamarine;
+	color: white;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.img{
+	background-image: url("../images/vancouver.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background
+}

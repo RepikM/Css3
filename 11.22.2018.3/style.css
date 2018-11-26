@@ -1,0 +1,35 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	margin: 0 3%;
+}
+
+a{
+	font-size: 32px;
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+	float: left;
+	width: 15%;
+	text-align: center;
+}
+
+nav{
+	position: sticky;
+	top:0px;
+	background-color: rgba(0,0,0,0.4);
+}
+nav::after{
+	content:"";
+	display:block;
+	clear:both;
+	margin-bottom: 25px;
+}
+
+nav::before{
+		content:"";
+	display:block;
+	clear:both;
+	margin-bottom: 25px;
+}

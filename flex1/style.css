@@ -1,0 +1,13 @@
+
+.flex-container{
+	display: flex;
+	justify-content: space-between;
+	/* flex-start|flex-end|center|space-between|space-around|initial|inherit; */
+
+}
+
+.flex-items{
+	border:  2px solid green;
+	padding: 10px;
+	width: 15%
+}

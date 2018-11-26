@@ -1,0 +1,39 @@
+.container{
+	width: 300px;
+	height: 200px;
+	background:  #42f4f4;
+	border:  2px solid black;
+	display: flex;	
+	/* flex-direction: row-reverse; */
+}
+
+.flexBox{
+	color: tomato;
+	font-family: Arial;
+	font-size: 2em;
+	line-height: 200px;
+	text-align: center;
+	border: 1px dashed grey;
+	
+	flex-grow: 1;
+
+	/* works with shrink */
+	/* flex-basis: 150px; */
+}
+
+.box1{
+	/* works together */
+	flex-grow: 3; 
+
+	/* flex-shrink: 5; */
+}
+
+.box2{
+	/* works together */
+	flex-grow: 1;
+}
+
+.box3{
+	/* works together */
+	/* flex-grow: 3; */
+}
