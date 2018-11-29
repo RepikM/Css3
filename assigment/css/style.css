@@ -1,0 +1,161 @@
+*{
+     font-family: 'Anonymous Pro';
+     box-sizing: border-box;
+}
+ body{
+     background-image: url("../images/bowling.png");
+}
+ article{
+     overflow: hidden;
+}
+ #ban ul{
+     padding: 0;
+     margin-right: -1%;
+}
+ #ban li{
+     float: left;
+     width: 21%;
+     margin: 1%;
+     list-style-type: none;
+     border: 2px solid black;
+     padding: 10px;
+     border-radius: 25px;
+     background-color: #333;
+     color: #fff;
+}
+ #ban li img{
+     width: 100%;
+     margin-bottom: 10px;
+     background-color: #333;
+}
+ #socialmedia img{
+     width: 20% 
+}
+ @media screen and (max-width: 768px){
+     #ban li{
+         width: 46%;
+    }
+     #socialmedia img{
+         width: 20% 
+    }
+}
+ @media screen and (max-width: 576px){
+     #ban li{
+         width: 92%;
+    }
+     #socialmedia img{
+         width: 15% 
+    }
+}
+ h1{
+     text-align: center;
+     color: #fff;
+}
+ #nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+     border-radius: 25px;
+}
+ #nav li {
+     float: left;
+}
+ #nav li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+}
+ #nav li a:hover {
+     background-color: #111;
+}
+ nav{
+     margin: 1%;
+     margin-right: 3%;
+}
+ header{
+     margin: 1%;
+     margin-right: 3%;
+     background-color: #333;
+     border-radius: 25px;
+}
+ .content{
+     background-color: #333;
+     border-radius: 25px;
+     color: #fff;
+     overflow: hidden;
+     padding: 10px;
+     border: 2px solid black;
+     margin: 1%;
+     margin-right: 3%;
+
+}
+ footer{
+     background-color: #333;
+     border-radius: 25px;
+     color: #fff;
+     overflow: hidden;
+     padding: 10px;
+     margin: 1%;
+     margin-right: 3%;
+     text-align: center;
+}
+ .sm{
+     font-size: 30px;
+     width: 50px;
+     text-align: center;
+     text-decoration: none;
+}
+ .sm:hover {
+     opacity: 0.7;
+}
+ #socialmedia{
+     position: fixed;
+     bottom: 0;
+     left: 0;
+}
+ input[type=text], select, textarea {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+}
+ input[type=submit] {
+     background-color: #FBCD2F;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     cursor: pointer;
+}
+ input[type=submit]:hover {
+     background-color:yellow;
+}
+ .container {
+     border-radius: 5px;
+     background-color: #333;
+     padding: 10px;
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     width: 15%;
+     display: none;
+}
+ .column {
+     float: left;
+     width: 100%;
+     margin-top: 6px;
+     padding: 20px;
+}
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+ label{
+     color: white;
+}
