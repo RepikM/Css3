@@ -1,0 +1,6 @@
+/* display 3 animals in one row */
+.container{
+	display: grid;
+	grid-template-columns: 33% 33% 33% ;
+	grid-gap: 5px 5px;
+}

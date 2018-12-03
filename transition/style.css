@@ -1,0 +1,46 @@
+div.box {
+    width:140px;
+    height:140px;
+    border-radius: 70px;
+    background:red;
+    position:relative;
+    animation: jump 1s infinite;
+}
+
+@keyframes jump {
+    0% {top: 0;animation-timing-function: ease-in;}
+    50% {top: 140px;height: 140px;animation-timing-function: ease-out;}
+    55% {top: 160px; height: 120px;border-radius: 70px / 60px;animation-timing-function: ease-in;}
+    65% {top: 120px; height: 140px;border-radius: 70px;animation-timing-function: ease-out;}
+    95% {top: 0;animation-timing-function: ease-in;}
+    100% {top: 0;animation-timing-function: ease-in;}
+}
+
+
+
+div.helicopter{
+	    width:140px;
+    height:440px;
+    border-radius:50%;
+     background:lightgoldenrodyellow;
+      position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-70px; /* this is half the height of your div*/  
+  margin-left:-220px; /*this is half of width of your div*/
+  
+  animation: rotateIt .001s linear infinite;
+}
+
+
+
+@keyframes rotateIt{
+    from{
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(3deg);
+                transform: rotate(3deg);
+    }
+}
