@@ -1,0 +1,43 @@
+*{
+	margin: 0;		
+	padding: 0;
+}
+
+a{
+text-decoration: none;	
+color: inherit;
+}
+li{
+	list-style-type: none;
+	display: none;
+
+
+}
+
+nav>ul>li>ul{
+ position: absolute;
+}
+nav>ul>li{
+	float: 	left;
+	padding-left: 2.5%;
+    padding-right: 2.5%;
+	 list-style-type: none;
+	 display: block;
+	 position: relative;
+
+}
+nav>ul>li:hover ul>li{
+
+		display: block;
+
+	
+}
+
+li:hover{
+	text-decoration: underline;
+	background-color: lightgoldenrodyellow;
+}
+ul:hover{
+	
+	background-color: lightgoldenrodyellow;
+}

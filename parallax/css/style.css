@@ -9,6 +9,19 @@ main {
   margin: 0 auto;
 }
 
+.warning{
+
+  width: 100%;
+  background: yellow;
+  height: 50px;
+  font-size: 120%;
+  text-align: center;
+}
+    button{
+      position: absolute; 
+      top:  0;
+      right:  0;
+    }
 header{
   display: flex;
   justify-content: center;
