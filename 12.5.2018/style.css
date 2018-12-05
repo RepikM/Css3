@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding:0;
+}
+button{
+	background-color: green;
+	color: white;
+   margin: 10px;
+	width: 100px;
+	height: 40px;
+
+}
+.modalChild{
+	display: none;
+	background-color: lightblue;
+	width:60%;
+	border:2px solid green;
+	 position: relative;
+     padding: 20px;
+	 margin-left: 20%;
+     margin-right: 10%;
+}
+.closeButton{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.closeButton:hover{
+	cursor: pointer;
+}
+.theBall{
+	background-color: red;
+	border-radius: 50%;
+	width: 15px;
+	height:15px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+    animation: jump 1s infinite;
+}
+@keyframes jump {
+    0% {left: 0;animation-timing-function: ease-in;}
+    50% {left: 720px;width: 15px;animation-timing-function: ease-out;}
+    55% {left: 840px; width: 15px;animation-timing-function: ease-in;}
+    65% {left: 900px; width: 15px;animation-timing-function: ease-out;}
+    95% {left: 80px;animation-timing-function: ease-in;}
+    100% {left: 0;animation-timing-function: ease-in;}
+}
