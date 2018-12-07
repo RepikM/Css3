@@ -1,0 +1,62 @@
+img{
+	width: 100px;
+	height: 100px;
+}
+.balls{
+
+      margin-left: 20%;
+	width: 40%;
+	height: 400px;
+	position: absolute;
+}
+.b{
+	width: 50px;
+	height: 50px;
+}
+.pacman1{
+       position: relative;
+	    animation: jumpkek 24s infinite,rot 3s infinite ;
+}
+.bug{
+       position: relative;
+	   animation: rot 3s infinite ,jumpbug 20s infinite;
+	   
+	    }
+.pacman{
+       position: absolute;
+       top: -10px;
+	   animation: jump 3s infinite;
+
+}
+@keyframes jump {
+    0% {left: 0vw;animation-timing-function: linear;}
+    100% {left: 90vw;animation-timing-function: linear;}
+}
+@keyframes jumpkek {
+
+    0% {left: 0%;animation-timing-function: linear;}
+    10% {left: 90%;animation-timing-function: linear;}
+    20% {left:0%;top:10%;animation-timing-function: linear;}
+    30% {left:90%;top:10%;animation-timing-function: linear;}
+    40% {left:0%;top:20%;animation-timing-function: linear;}
+    50%{left:90%;top:20%;animation-timing-function: linear;}
+    60% {left: 0%;top:30%;animation-timing-function: linear;}
+    70% {left: 90%;top:30%;animation-timing-function: linear;}
+    80% {left:0%;top:40%;animation-timing-function: linear;}
+    90% {left:90%;top:40%;animation-timing-function: linear;}
+    100% {left:0%;top:50%;animation-timing-function: linear;}
+}
+@keyframes jumpbug {
+    0% {left: 10%;animation-timing-function: ease;}
+    10% {left: 90%;animation-timing-function: ease;}
+    20% {left:10%;top:10%;animation-timing-function: ease-in;}
+    30% {left:90%;top:10%;animation-timing-function: ease-in;}
+    40% {left:10%;top:20%;animation-timing-function: ease-in;}
+    50%{left:90%;top:20%;animation-timing-function: ease-in;}
+    60% {left: 10%;top:30%;animation-timing-function: ease-in-out;}
+    70% {left: 90%;top:30%;animation-timing-function: ease-in-out;}
+    80% {left:10%;top:40%;animation-timing-function: ease-in-out;}
+    90% {left:90%;top:40%;animation-timing-function: ease-in-out;}
+    100% {left:10%;top:50%;animation-timing-function: linear;}
+
+}

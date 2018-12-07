@@ -1,0 +1,16 @@
+@media screen and (max-width: 576px){
+	li:not(.icon){
+		display: none;
+	}
+		.icon{
+		display: block;
+
+	}
+			.images{
+				margin-left:7%;
+	            height: 50vh;
+		     width: 50%
+		
+	}
+	}
+
